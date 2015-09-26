@@ -1,0 +1,4 @@
+<div class="jumbotron">
+  <h2><%= "Hello #{@messenger}, from Phoenix!" %></h2>
+  <%= "You can find me at #{Path.absname("index.html.eex")} and #{hello_path(HelloPhoenix.Endpoint, :show, @messenger)}" %>
+</div>

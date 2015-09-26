@@ -1,0 +1,4 @@
+<div class="jumbotron">
+  <h2>Hello World, from Phoenix!</h2>
+  <%= "You can find me at #{Path.absname("index.html.eex")} or #{page_url(HelloPhoenix.Endpoint, :index)}" %>
+</div>
